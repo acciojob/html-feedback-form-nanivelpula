@@ -10,18 +10,17 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<div>
-<label for="name">Name</label>
-	<input type="text" id="name"></div><br>
-		<div>
-<label for="id">ID</label>
-	<input type="number" id="portifolio"></div>
-	<label for="id">Pink</label>
-	<input type="radio" name="color" id="red"></div>
-	<label for="id">Red</label>
-	<input type="radio" name="color"></div><br>
-	<label>Min&Max</label>
-	<input type="number">
+	
+	<form><h1>Feedback Form</h1>
+  <label for="name" id="name"> Name : </label><br>
+    <input type="name" minlength="3" maxlength="50" required>
+  <label for="portfolio" id="portfolio">Portfolio</label><br>
+  <input type="url" required>
+    <label for="favColor" id="favColor">favColor</label><br>
+    <input type="color">
+    <label for="likeness" id="likeness">likeness</label><br>
+    <input type="range" min="1" max="100">
+    </form>
 </body>
 
 </html>
